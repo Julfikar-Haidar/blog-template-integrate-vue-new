@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <slot name="blog"></slot>
-                <slot name="Post"></slot>
+                <slot name="post"></slot>
             </div>
         </div>
 

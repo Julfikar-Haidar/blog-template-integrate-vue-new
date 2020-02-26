@@ -6,6 +6,8 @@ import VueRouter from 'vue-router'
 import Home from '../components/pages/Home'
 import Blog from "../components/pages/Blog"
 import Post from "../components/pages/Post"
+import Postdetails from "../components/pages/Postdetails"
+
 // import Contact from "../components/pages/Contact";
 // import Sample from "../components/pages/Sample";
 
@@ -19,7 +21,9 @@ const routes = [
 
     {path: '/', component: Home, name: 'Home'},
     {path: '/blog', component: Blog, name: 'Blog'},
-    {path: '/post', component: Post, name: 'Post'},
+    // {path: '/post', component: Post, name: 'Post'},
+    {path: '/post/:id', component: Post, name: 'Post'},
+    {path: '/postdetails', component: Postdetails, name: 'Postdetails'},
     // {path: '/sample/:id', component: Sample, name: 'Sample'},
 
 ];

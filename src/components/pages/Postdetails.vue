@@ -6,7 +6,7 @@
                     <div class="container">
                         <div class="row">
                             <!-- post -->
-                            <div class="post col-xl-6" v-for="comment in comments.slice(0,4)" v-bind:key="comment.id">
+                            <div class="post col-xl-6" v-for="comment in comments.slice(0,10)" v-bind:key="comment.id">
                                 <div class="post-thumbnail"><a href="post.html"><img
                                         src="https://d19m59y37dris4.cloudfront.net/blog/1-2-1/img/blog-post-1.jpeg"
                                         alt="..." class="img-fluid"></a></div>

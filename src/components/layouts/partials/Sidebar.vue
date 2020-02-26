@@ -1,11 +1,12 @@
 <template>
     <aside class="col-lg-4">
 
-         <Search></Search>
+        <Search></Search>
         <Latest></Latest>
         <Tag></Tag>
         <Categories></Categories>
-        </aside>
+
+    </aside>
 </template>
 
 <script>

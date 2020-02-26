@@ -31,13 +31,13 @@
               </li>
               <li class="nav-item"><a href="#" class="nav-link "><router-link to="/blog">Blog</router-link></a>
               </li>
-              <li class="nav-item"><a href="#" class="nav-link "><router-link to="/Post">Post</router-link></a>
+              <li class="nav-item"><a href="#" class="nav-link "><router-link to="/postdetails">Post</router-link></a>
               </li>
               <li class="nav-item"><a href="#" class="nav-link ">Contact</a>
               </li>
             </ul>
             <div class="navbar-text"><a href="#" class="search-btn"><i class="icon-search-1"></i></a></div>
-            <ul class="langs navbar-text"><a href="#" class="active">EN</a><span>           </span><a href="#">ES</a></ul>
+            <ul class="langs navbar-text"><a href="#" class="active">EN</a><span> </span><a href="#">ES</a></ul>
           </div>
         </div>
       </nav>
